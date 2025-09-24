@@ -5,9 +5,9 @@
 
 Mono repo containing seven projects structured as microservices, built with Spring Cloud and a set of tools that provide resilience, scalability, and secure communication across services:
 
-- Feign → Declarative HTTP client for communication between services
+- Feign → API request for communication between microsservices
 - Ribbon → Client-side load balancer to distribute requests
-- Eureka Server → Service discovery and registration
+- Eureka Server → Server to register microservices
 - Zuul API Gateway → Routes requests and handles authorizations
 - Hystrix → Circuit breaker to provide latency tolerance and avoid cascading failures
 - OAuth2 + JWT → Authentication and authorization across microservices
@@ -18,10 +18,36 @@ Mono repo containing seven projects structured as microservices, built with Spri
 This UML (Unified Modeling Language) diagram includes a few core entities and a Many-to-Many relationship between Users and Roles. It provides the foundation for demonstrating the implementation of Spring Cloud solutions and the design of a microservices architecture.
 - <img width="1992" height="1322" alt="image" src="https://github.com/user-attachments/assets/cc08c5fa-1dbc-42a1-886b-3a2201399e22" />
 
+## Microservices architecture
+
+<img width="1862" height="1380" alt="image" src="https://github.com/user-attachments/assets/02dc1a4a-6840-4894-b6bf-f9e92df66dbb" />
+
 
 # [PT-BR]
 
+# Sistema de Recursos Humanos
 
+## Mono repositório de Microsserviços
+
+Monorepo contendo sete projetos estruturados como microsserviços, desenvolvidos com Spring Cloud e um conjunto de ferramentas que oferecem resiliência, escalabilidade e comunicação segura entre os serviços:
+
+Feign → Comunicação entre microsserviços
+Ribbon → Balanceador de carga no lado do cliente para distribuir requisições
+Eureka Server → Servidor para registrar os microsserviços
+Zuul API Gateway → Roteamento de requisições e gerenciamento de autorizações
+Hystrix → Circuit breaker para tolerância a latência e prevenção de falhas em cascata
+OAuth2 + JWT → Autenticação e autorização entre microsserviços
+Docker → Containerização dos serviços para execução local e em nuvem
+
+## Modelo Conceitual
+
+Este diagrama UML apresenta algumas entidades centrais e um relacionamento Many-to-Many entre Users e Roles. Ele serve como base para demonstrar a implementação das soluções do Spring Cloud e o design de uma arquitetura de microsserviços.
+- <img width="1992" height="1322" alt="image" src="https://github.com/user-attachments/assets/cc08c5fa-1dbc-42a1-886b-3a2201399e22" />
+
+
+## Arquitetura dos Microsserviços
+
+<img width="1862" height="1380" alt="image" src="https://github.com/user-attachments/assets/02dc1a4a-6840-4894-b6bf-f9e92df66dbb" />
 
 
 
