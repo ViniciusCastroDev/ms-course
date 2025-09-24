@@ -23,7 +23,7 @@ This UML (Unified Modeling Language) diagram includes a few core entities and a 
 
 The microservices architecture below was designed with system scalability in mind. Each green box represents a microservice (MS), all registered in Eureka (Discovery Server) and retrieving configuration from a private GitHub repository.
 
-The Zuul Gateway centralizes most of the project, acting as a single entry point between the system and clients. The User and Worker microservices each have their own PostgreSQL database to ensure data isolation.
+The Zuul Gateway centralizes most of the project, acting as a single entry point between the system and client. The User and Worker microservices each have their own PostgreSQL database to ensure data isolation.
 
 Finally, three Worker instances are shown to illustrate the system’s ability to scale dynamically, taking advantage of load balancing while maintaining ephemeral instances.
 
